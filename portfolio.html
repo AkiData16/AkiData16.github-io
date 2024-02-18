@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshit Gupta - Data Analyst Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        .card {
+            border: none;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-title {
+            color: #343a40;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .social-icons a {
+            color: white;
+        }
+
+        .dropdown-menu {
+            background-color: #343a40;
+        }
+
+        .dropdown-item {
+            color: white;
+        }
+
+        .dropdown-item:hover {
+            background-color: #4d545c;
+        }
+
+        .highlight-badge {
+            background-color: #ffc107;
+            color: #343a40;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="C:\Users\akshi\Desktop\portfolio\AKSHIT photo.jpg" alt="Akshit Gupta" style="width: 150px; height: 150px;">
+        <h1>Akshit Gupta</h1>
+        <p>Data Analyst | Kitchener, Ontario, Canada</p>
+        <p>Email: akshit160520@gmail.com | Phone: +1(647)6408645</p>
+        <div class="social-icons">
+            <a href="#" class="text-white"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-github fa-2x mx-2"></i></a>
+            <!-- Add more social icons as needed -->
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <section>
+            <h2 class="mb-4">Summary</h2>
+            <p>As an accomplished data analyst with more than three years of experience, I excel in natural language processing, computer vision, time series forecasting, predictive modeling, and statistical analysis. My proficiency in Python, SQL, and big data technologies enables me to implement data-driven solutions that drive business success. I have a proven track record of delivering innovative solutions that have resulted in a substantial 30% reduction in operational costs.</p>
+        </section>
+
+        <section>
+            <h2 class="mb-4">Experience</h2>
+            <div class="accordion" id="experienceAccordion">
+                <div class="card">
+                    <div class="card-header" id="experienceHeadingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-dark" type="button" data-toggle="collapse" data-target="#experienceCollapseOne" aria-expanded="true" aria-controls="experienceCollapseOne">
+                                Associate Analyst | Deloitte USI | India | August 2020 - August 2022
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="experienceCollapseOne" class="collapse show" aria-labelledby="experienceHeadingOne" data-parent="#experienceAccordion">
+                        <div class="card-body">
+                            <p>Automated 96% of the manual effort required by the lending team, resulting in streamlined loan processing procedures. Developed and deployed a Flask API for end-users using Jenkins and Treadmill, leading to increased efficiency and reduced processing time.</p>
+                            <p>Implemented EBS Oracle Cloud for Client which eventually resulted in bringing down the execution time for applications.</p>
+                            <p>Streamlining Decision-making with a Business Intelligence Platform (BIP) which involved setting up data connectors, configuring access controls, and establishing data refresh schedules to ensure real-time accuracy.</p>
+                            <!-- Add more details as needed -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more experience cards using similar accordion structure -->
+            </div>
+        </section>
+
+        <section>
+            <h2 class="mb-4">Freelance Projects / Internships</h2>
+            <div class="accordion" id="projectsAccordion">
+                <div class="card">
+                    <div class="card-header" id="projectHeadingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-dark" type="button" data-toggle="collapse" data-target="#projectCollapseOne" aria-expanded="true" aria-controls="projectCollapseOne">
+                                Automation Engineer | Asmita CA Professional | January 2021 - Present
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="projectCollapseOne" class="collapse show" aria-labelledby="projectHeadingOne" data-parent="#projectsAccordion">
+                        <div class="card-body">
+                            <p>Automated the sales and expense entries in Quickbooks using a combination of Python libraries such as PyAutoGUI, PyPDF2, Pandas, and OpenCV. This resulted in a significant reduction of 70% in manual effort previously required for such tasks.</p>
+                            <!-- Add more details as needed -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more project cards using similar accordion structure -->
+            </div>
+        </section>
+
+        <section>
+            <h2 class="mb-4">Skills</h2>
+            <ul class="list-unstyled">
+                <li>Programming languages / Databases: Python, SQL, Oracle, PlSQL</li>
+                <li>Libraries and frameworks: TensorFlow, Keras, PyTorch, spaCy, NLTK, Scikit-learn, OpenCV, BERT, LSTM, Transfer Learning, Vision Transformers, GAN, Regression, Decision trees, Random forests, SVM, XGBoost, AdaBoost, LightGBM, Clustering, PCA, t-SNE, ARIMA</li>
+                <li>BI and Analytics tools: Qlik Sense, Google Analytics, Power BI</li>
+                <li>Big Data technologies: Hadoop, Spark</li>
+                <li>Cloud platforms: AWS (EC2, Lambda, S3, Sagemaker), Google Cloud, Azure</li>
+                <li>Other tools and technologies: ETL, GitHub, Django, Flask, Jenkins, Jira, Microsoft Office (Excel, PowerPoint), Linux</li>
+            </ul>
+            <p><span class="badge highlight-badge">Python</span> <span class="badge highlight-badge">SQL</span> <span class="badge highlight-badge">TensorFlow</span> <span class="badge highlight-badge">Power BI</span> <span class="badge highlight-badge">AWS</span></p>
+        </section>
+
+        <section>
+            <h2 class="mb-4">Education</h2>
+            <div class="accordion" id="educationAccordion">
+                <div class="card">
+                    <div class="card-header" id="educationHeadingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-dark" type="button" data-toggle="collapse" data-target="#educationCollapseOne" aria-expanded="true" aria-controls="educationCollapseOne">
+                                Bachelor of Computer Applications | Chitkara University | Punjab, India | 2020
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="educationCollapseOne" class="collapse show" aria-labelledby="educationHeadingOne" data-parent="#educationAccordion">
+                        <div class="card-body">
+                            <!-- Add more details as needed -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Conestoga College education card using similar accordion structure -->
+                <div class="card">
+                    <div class="card-header" id="educationHeadingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-dark" type="button" data-toggle="collapse" data-target="#educationCollapseTwo" aria-expanded="true" aria-controls="educationCollapseTwo">
+                                PG Diploma in Web development | Conestoga College | Kitchener, Canada | 2023
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="educationCollapseTwo" class="collapse show" aria-labelledby="educationHeadingTwo" data-parent="#educationAccordion">
+                        <div class="card-body">
+                            <!-- Add more details as needed -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Akshit Gupta - Data Analyst Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
